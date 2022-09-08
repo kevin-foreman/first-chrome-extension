@@ -1,0 +1,10 @@
+{
+    "name": "My First Extension",
+    "description": "First attempt at building an Extension!",
+    "version": "1.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage"]
+}
